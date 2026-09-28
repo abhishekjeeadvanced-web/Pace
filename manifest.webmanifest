@@ -1,0 +1,49 @@
+{
+  "name": "Pace Register — SSC Sectional Timing",
+  "short_name": "Pace Register",
+  "description": "Track 25 questions in 15 minutes: daily speed logging and analytics for SSC Maths & Reasoning sectional preparation.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6f1e7",
+  "theme_color": "#23359b",
+  "categories": ["education", "productivity", "utilities"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/images/icon.png",
+      "sizes": "1408x1408",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icon.png",
+      "sizes": "1408x1408",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Log today's speed",
+      "short_name": "Log",
+      "url": "/#log",
+      "description": "Record a 25 question / 15:00 sectional attempt"
+    },
+    {
+      "name": "Pace ribbon",
+      "short_name": "Pace",
+      "url": "/#pace",
+      "description": "See the question-by-question pace against the 36s budget"
+    }
+  ]
+}
